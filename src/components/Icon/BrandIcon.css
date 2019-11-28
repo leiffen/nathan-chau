@@ -1,0 +1,10 @@
+.icon {
+    color: white;
+    padding: 15px;
+    transition: color .2s ease-in-out;
+}
+
+.icon:hover {
+    color: rgb(165, 235, 165);
+    transition: color .2s ease-in-out;
+}
