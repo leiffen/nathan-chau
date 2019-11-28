@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nathan-chau/static/css/main.b100e6da.chunk.css",
+    "main.js": "/nathan-chau/static/js/main.1150e8d4.chunk.js",
+    "main.js.map": "/nathan-chau/static/js/main.1150e8d4.chunk.js.map",
+    "runtime-main.js": "/nathan-chau/static/js/runtime-main.73ac58a1.js",
+    "runtime-main.js.map": "/nathan-chau/static/js/runtime-main.73ac58a1.js.map",
+    "static/js/2.9c931dc2.chunk.js": "/nathan-chau/static/js/2.9c931dc2.chunk.js",
+    "static/js/2.9c931dc2.chunk.js.map": "/nathan-chau/static/js/2.9c931dc2.chunk.js.map",
+    "index.html": "/nathan-chau/index.html",
+    "precache-manifest.c16f2861cdd58ef938583c91cc003964.js": "/nathan-chau/precache-manifest.c16f2861cdd58ef938583c91cc003964.js",
+    "service-worker.js": "/nathan-chau/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/nathan-chau/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/nathan-chau/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73ac58a1.js",
+    "static/js/2.9c931dc2.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.1150e8d4.chunk.js"
+  ]
+}
