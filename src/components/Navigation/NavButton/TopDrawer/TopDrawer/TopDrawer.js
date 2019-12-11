@@ -6,6 +6,7 @@ class topDrawer extends Component {
 
     scrollTo = page => {
         document.getElementById(page).scrollIntoView();
+        this.props.click();
     }
 
     render() {

@@ -1,5 +1,5 @@
 .icon {
-    color: #909090;
+    color: rgb(160, 160, 160);
     padding: 15px;
     transition: color .2s ease-in-out;
 }

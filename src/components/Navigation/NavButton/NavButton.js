@@ -6,15 +6,11 @@ import TopDrawer from './TopDrawer/TopDrawer/TopDrawer';
 
 class navButton extends Component {
 
-    scrollTo = page => {
-        document.getElementById(page).scrollIntoView();
-    }
-
     render() {
         return (
             <div className="navbar-mobile">
                 <DrawerButton click={this.props.drawerClickHandler} show={this.props.show}/>
-                <TopDrawer show={this.props.show}/>
+                <TopDrawer click={this.props.drawerClickHandler} show={this.props.show}/>
             </div>
         );
     } 

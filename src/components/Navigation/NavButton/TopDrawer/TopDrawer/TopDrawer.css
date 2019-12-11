@@ -27,10 +27,11 @@
 
 .top-drawer li {
     padding: 0.5rem 2rem;
-    border-top: 1px solid #909090;
+    border-top: 1px solid rgba(144, 144, 144, 0.8);
     color: rgb(105, 205, 105);
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 400;
 }
 
 @media (min-width: 769px) {
