@@ -4,11 +4,6 @@
     justify-content: space-around;
     height: 24px;
     width: 30px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    box-sizing: border-box;
     z-index: 1;
 }
 
@@ -20,10 +15,42 @@
     width: 30px;
     height: 3px;
     background: rgb(160, 160, 160);
+    transition: all 0.4s ease;
 }
 
-.toggle-button-line-open {
+.toggle-button-line::before,
+.toggle-button-line::after {
+    display: flex;
+    position: absolute;
+    content: '';
     width: 30px;
     height: 3px;
-    background: #525252;
+    background: rgb(160, 160, 160);
+    transition: all 0.4s ease;
+}
+
+.toggle-button-line::before {
+    top: 8px;
+}
+
+.toggle-button-line::after {
+    bottom: 8px;
+}
+
+.toggle-button-line-open::before,
+.toggle-button-line-open::after {
+    transition: all 0.4s ease;
+    display: flex;
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;background: #525252;
+}
+
+.toggle-button-line-open::before {
+    transform: rotate(45deg);
+}
+
+.toggle-button-line-open::after {
+    transform: rotate(135deg);
 }

@@ -13,8 +13,6 @@ class drawerButton extends Component {
         return(
             <div className = "toggle-button" onClick={this.props.click}>
                 <div className = {line}/>
-                <div className = {line}/>
-                <div className = {line}/>
             </div>
         );
     }
