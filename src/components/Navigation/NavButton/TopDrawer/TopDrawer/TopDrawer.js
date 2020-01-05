@@ -19,10 +19,14 @@ class topDrawer extends Component {
 
         return (
             <div className = {drawerClasses}>
-                <ul >
-                    <li onClick={()=>this.scrollTo('home')}>Home</li>
-                    <li onClick={()=>this.scrollTo('about')}>About</li>
-                </ul>
+                <div>
+                    <div>
+                        <ul>
+                            <li onClick={()=>this.scrollTo('home')}>Home</li>
+                            <li onClick={()=>this.scrollTo('about')}>About</li>
+                        </ul>   
+                    </div>
+                </div>
             </div> 
         );
     }  
