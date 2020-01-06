@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nathan-chau/static/css/main.1cc99078.chunk.css",
+    "main.css": "/nathan-chau/static/css/main.2f3ea903.chunk.css",
     "main.js": "/nathan-chau/static/js/main.c8e7a5a1.chunk.js",
     "main.js.map": "/nathan-chau/static/js/main.c8e7a5a1.chunk.js.map",
     "runtime-main.js": "/nathan-chau/static/js/runtime-main.73ac58a1.js",
@@ -8,16 +8,16 @@
     "static/js/2.ec9141e9.chunk.js": "/nathan-chau/static/js/2.ec9141e9.chunk.js",
     "static/js/2.ec9141e9.chunk.js.map": "/nathan-chau/static/js/2.ec9141e9.chunk.js.map",
     "index.html": "/nathan-chau/index.html",
-    "precache-manifest.d1a8120ac7f96c855498bc68ae44160d.js": "/nathan-chau/precache-manifest.d1a8120ac7f96c855498bc68ae44160d.js",
+    "precache-manifest.b5ddddba1a2ca72e571661e99819b799.js": "/nathan-chau/precache-manifest.b5ddddba1a2ca72e571661e99819b799.js",
     "service-worker.js": "/nathan-chau/service-worker.js",
-    "static/css/main.1cc99078.chunk.css.map": "/nathan-chau/static/css/main.1cc99078.chunk.css.map",
+    "static/css/main.2f3ea903.chunk.css.map": "/nathan-chau/static/css/main.2f3ea903.chunk.css.map",
     "static/media/Resume.pdf": "/nathan-chau/static/media/Resume.bde511f0.pdf",
     "static/media/Home.css": "/nathan-chau/static/media/background.685ce8d5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.73ac58a1.js",
     "static/js/2.ec9141e9.chunk.js",
-    "static/css/main.1cc99078.chunk.css",
+    "static/css/main.2f3ea903.chunk.css",
     "static/js/main.c8e7a5a1.chunk.js"
   ]
 }
