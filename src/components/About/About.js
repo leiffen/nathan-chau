@@ -15,7 +15,7 @@ const about = props => (
                 <br></br>
                 Aside from designing, I also have strong passion in music.
                 As a bassist, I enjoy creating music that motivates listeners with groove and low end rhythm.
-                In my spare time, I create bass covers of various styles of music and am currently part of a band called "Lost n'Found".
+                In my spare time, I create bass covers of various styles of music and am currently part of a band called "Lost n' Found".
             </div>
         </div>
     </div>
