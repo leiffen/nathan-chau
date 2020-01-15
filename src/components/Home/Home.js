@@ -17,7 +17,7 @@ class main extends Component {
                         <strong>Nathan Chau</strong>
                     </p>
                     <p className="subtitle">
-                        <em>Developer and Musician</em>
+                        <em>Software Developer and Bassist</em>
                     </p>
                     <div className="icons">
                         <BrandIcon hyperLink="https://www.linkedin.com/in/nathankcchau/" iconClass={faLinkedin}/>
