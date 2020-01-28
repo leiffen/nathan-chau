@@ -6,6 +6,8 @@ import Navbar from './components/Navigation/NavBar/NavBar';
 import Navbutton from './components/Navigation/NavButton/NavButton';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Covers from './components/Covers/Covers';
 
 class App extends Component {
   state = {
@@ -26,6 +28,8 @@ class App extends Component {
       
       <Home/>
       <About/>
+      <Projects/>
+      <Covers/>
     </div>
     );
   }

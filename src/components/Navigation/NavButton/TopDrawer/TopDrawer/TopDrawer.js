@@ -24,6 +24,8 @@ class topDrawer extends Component {
                         <ul>
                             <li onClick={()=>this.scrollTo('home')}>Home</li>
                             <li onClick={()=>this.scrollTo('about')}>About</li>
+                            <li onClick={()=>this.scrollTo('projects')}>Projects</li>
+                            <li onClick={()=>this.scrollTo('covers')}>Covers</li>
                         </ul>   
                     </div>
                 </div>
