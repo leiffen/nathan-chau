@@ -1,0 +1,20 @@
+#covers {
+    background: rgb(15, 25, 15);;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contianer-cover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    flex-flow: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
