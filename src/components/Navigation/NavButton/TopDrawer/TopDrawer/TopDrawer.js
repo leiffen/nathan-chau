@@ -1,37 +1,31 @@
-import React, {Component} from 'react';
+import React from "react";
 
-import './TopDrawer.css';
+import "./TopDrawer.css";
 
-class topDrawer extends Component {
+function TopDrawer({ click, show }) {
+    const drawerClasses = show ? "top-drawer open" : "top-drawer";
 
-    scrollTo = page => {
+    const scrollTo = (page) => {
         document.getElementById(page).scrollIntoView();
-        this.props.click();
-    }
+        click();
+    };
 
-    render() {
-
-        let drawerClasses = 'top-drawer';
-
-        if (this.props.show) {
-            drawerClasses = 'top-drawer open';
-        }
-
-        return (
-            <div className = {drawerClasses}>
+    return (
+        <div className={drawerClasses}>
+            <div>
                 <div>
-                    <div>
-                        <ul>
-                            <li onClick={()=>this.scrollTo('home')}>Home</li>
-                            <li onClick={()=>this.scrollTo('about')}>About</li>
-                            <li onClick={()=>this.scrollTo('projects')}>Projects</li>
-                            <li onClick={()=>this.scrollTo('covers')}>Covers</li>
-                        </ul>   
-                    </div>
+                    <ul>
+                        <li onClick={() => scrollTo("home")}>Home</li>
+                        <li onClick={() => scrollTo("about")}>About</li>
+                        {/* <li onClick={()=>scrollTo('projects')}>Projects</li> */}
+                        <li onClick={() => scrollTo("basscovers")}>
+                            Bass Covers
+                        </li>
+                    </ul>
                 </div>
-            </div> 
-        );
-    }  
+            </div>
+        </div>
+    );
 }
 
-export default topDrawer;
+export default TopDrawer;

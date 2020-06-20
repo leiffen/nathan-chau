@@ -1,38 +1,35 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
 
-import './App.css';
+import "./App.css";
 
-import Navbar from './components/Navigation/NavBar/NavBar';
-import Navbutton from './components/Navigation/NavButton/NavButton';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Covers from './components/Covers/Covers';
+import Navbar from "./components/Navigation/NavBar/NavBar";
+import Navbutton from "./components/Navigation/NavButton/NavButton";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+// import Projects from './components/Projects/Projects';
+import BassCovers from "./components/BassCovers/BassCovers";
 
-class App extends Component {
-  state = {
-    topDrawerOpen: false
-  };
-  
-  drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {topDrawerOpen: !prevState.topDrawerOpen}
-    });
-  };
+function App() {
+    const [topDrawerOpen, setTopDrawerOpen] = useState(false);
 
-  render() {
+    const drawerToggleClickHandler = () => {
+        setTopDrawerOpen(!topDrawerOpen);
+    };
+
     return (
-    <div className="App">
-      <Navbar/>
-      <Navbutton drawerClickHandler={this.drawerToggleClickHandler} show={this.state.topDrawerOpen}/>
-      
-      <Home/>
-      <About/>
-      <Projects/>
-      <Covers/>
-    </div>
+        <div className="App">
+            <Navbar />
+            <Navbutton
+                drawerClickHandler={drawerToggleClickHandler}
+                show={topDrawerOpen}
+            />
+
+            <Home />
+            <About />
+            {/* <Projects/> */}
+            <BassCovers />
+        </div>
     );
-  }
 }
 
 export default App;

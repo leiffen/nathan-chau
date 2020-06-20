@@ -1,18 +1,13 @@
-import React, {Component} from 'react';
+import React from "react";
 
-import './Card.css';
+import "./Card.css";
 
-class card extends Component {
+const Card = ({ link, image }) => (
+    <div className="card">
+        <a href={link}>
+            <img src={image} alt=""></img>
+        </a>
+    </div>
+);
 
-    render() {
-        return (
-            <div className="card">
-                <a href={this.props.link}>
-                    <img src={this.props.image} alt=""></img>    
-                </a>
-            </div>
-        );
-    }
-}
-
-export default card;
+export default Card;

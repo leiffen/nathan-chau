@@ -1,21 +1,15 @@
-import React, {Component} from 'react';
+import React from "react";
 
-import './DrawerButton.css';
+import "./DrawerButton.css";
 
-class drawerButton extends Component {
-    render() {
-        let line = "toggle-button-line";
-        
-        if(this.props.show) {
-            line = "toggle-button-line-open"
-        }
+function DrawerButton({ click, show }) {
+    const line = show ? "toggle-button-line-open" : "toggle-button-line";
 
-        return(
-            <div className = "toggle-button" onClick={this.props.click}>
-                <div className = {line}/>
-            </div>
-        );
-    }
-};
+    return (
+        <div className="toggle-button" onClick={click}>
+            <div className={line} />
+        </div>
+    );
+}
 
-export default drawerButton;
+export default DrawerButton;

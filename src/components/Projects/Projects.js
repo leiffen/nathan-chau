@@ -1,22 +1,20 @@
-import React from 'react';
+import React from "react";
 
-import './Projects.css';
-import Card from '../Card/Card.js';
+import "./Projects.css";
+import Card from "../Card/Card.js";
 
-import i from '../../Images/kite_thubnail.png';
+import i from "../../Images/kite_thubnail.png";
 
-const projects = props => (
+const Projects = () => (
     <div id="projects">
-        <div className="about-title">
-            Projects
-        </div>
+        <div className="about-title">Projects</div>
         <div id="contianer-project">
-            <Card link="" image={i}/>
-            <Card link="" image={i}/>
-            <Card link="" image={i}/>
-            <Card link="" image={i}/>
+            <Card link="" image={i} />
+            <Card link="" image={i} />
+            <Card link="" image={i} />
+            <Card link="" image={i} />
         </div>
     </div>
 );
 
-export default projects;
+export default Projects;
