@@ -14,7 +14,7 @@
 .toggle-button-line {
     width: 30px;
     height: 3px;
-    background: rgb(160, 160, 160);
+    background: rgb(210, 210, 210);
     transition: all 0.4s ease;
 }
 
@@ -22,10 +22,10 @@
 .toggle-button-line::after {
     display: flex;
     position: absolute;
-    content: '';
+    content: "";
     width: 30px;
     height: 3px;
-    background: rgb(160, 160, 160);
+    background: rgb(210, 210, 210);
     transition: all 0.4s ease;
 }
 
@@ -41,9 +41,10 @@
 .toggle-button-line-open::after {
     display: flex;
     position: absolute;
-    content: '';
+    content: "";
     width: 30px;
-    height: 3px;background: #525252;
+    height: 3px;
+    background: rgb(210, 210, 210);
     transition: all 0.4s ease;
 }
 

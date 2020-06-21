@@ -12,7 +12,7 @@ import kkhouseTN from "../../Images/kkhouse_tn.png";
 
 const Basscovers = () => (
     <div id="basscovers">
-        <div className="about-title">Bass Covers</div>
+        <div className="basscover-title">Bass Covers</div>
         <div id="contianer-basscover">
             <Card link="https://youtu.be/7f4Zq1gZeLE" image={kiteTN} />
             <Card link="https://youtu.be/dObxR0pXQHY" image={quitsmokingTN} />
