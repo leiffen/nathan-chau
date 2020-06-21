@@ -4,6 +4,9 @@
     margin: 15px;
     border: 10px solid rgb(210, 210, 210);
     max-width: 400px;
+
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 
 img {
@@ -11,4 +14,9 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0, 6);
 }
